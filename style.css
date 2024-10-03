@@ -4,3 +4,16 @@ body{
     margin: 0px;
 }
 
+.portrait-container{
+    display: flex;
+    flex-direction: row;
+
+}
+
+.header-left{
+    flex: 2 0 ;
+}
+
+.header-text-container{
+    flex: 3 0 ;
+}
