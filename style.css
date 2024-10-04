@@ -1,5 +1,7 @@
 body{
     padding: 0px;
+    padding-left: 120px; 
+    padding-right: 120px;
     border: 0px;
     margin: 0px;
 }
@@ -7,13 +9,34 @@ body{
 .portrait-container{
     display: flex;
     flex-direction: row;
+    padding: 60px;
 
+    padding-left: 0px; 
+    padding-right: 0px;
 }
 
 .header-left{
-    flex: 2 0 ;
+    flex: 1 1;
+    background-color: black;
+    width: 700px;
+    aspect-ratio: 1 / 1;
 }
 
 .header-text-container{
-    flex: 3 0 ;
+    flex: 1 1;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+
+.blurb{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.header-blurb{
+    font-size: 20px;
 }
